@@ -1,0 +1,60 @@
+07/06 19:50:55: Launching 'app' on motorola moto g(7) power.
+$ adb shell am start -n "com.example.mlptest/com.example.mlptest.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 23495 on device 'motorola-moto_g_7__power-ZY326J6LDW'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/example.mlptes: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+W/example.mlptes: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+W/example.mlptes: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+W/example.mlptes: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+D/David: Battery Info: android.app.ApplicationErrorReport$BatteryInfo@2904ca6
+D/OpenGLRenderer: Skia GL Pipeline
+I/Adreno: QUALCOMM build                   : 94a5458, I21281c58c8
+    Build Date                       : 12/18/18
+    OpenGL ES Shader Compiler Version: EV031.25.03.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.6.2.R1.09.00.00.463.046
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+    Build Config                     : S L 6.0.7 AArch64
+I/Adreno: PFP: 0x005ff112, ME: 0x005ff066
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+    android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 2
+I/tflite: Created TensorFlow Lite delegate for GPU.
+D/David: MODEL: 1 TEST CSV: 1
+I/example.mlptes: Waiting for a blocking GC ProfileSaver
+I/tflite: Initialized TensorFlow Lite runtime.
+I/tflite: Initialized OpenCL-based API.
+I/tflite: Created 1 GPU delegate kernels.
+W/example.mlptest: type=1400 audit(0.0:119280): avc: denied { read } for uid=10315 name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=15132 scontext=u:r:untrusted_app:s0:c59,c257,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+W/System: A resource failed to call close. 
+E/libc: Access denied finding property "ro.hardware.chipname"
+I/tflite: Created 1 GPU delegate kernels.
+D/David: MODEL: 1 TEST CSV: 2
+D/AndroidRuntime: Shutting down VM
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.example.mlptest, PID: 23495
+    java.lang.IllegalArgumentException: Internal error: Invalid handle to delegate.
+        at org.tensorflow.lite.NativeInterpreterWrapper.applyDelegate(Native Method)
+        at org.tensorflow.lite.NativeInterpreterWrapper.applyDelegates(NativeInterpreterWrapper.java:351)
+        at org.tensorflow.lite.NativeInterpreterWrapper.init(NativeInterpreterWrapper.java:82)
+        at org.tensorflow.lite.NativeInterpreterWrapper.<init>(NativeInterpreterWrapper.java:63)
+        at org.tensorflow.lite.Interpreter.<init>(Interpreter.java:266)
+        at com.example.mlptest.MainActivity$1.onClick(MainActivity.java:167)
+        at android.view.View.performClick(View.java:6600)
+        at android.view.View.performClickInternal(View.java:6577)
+        at android.view.View.access$3100(View.java:781)
+        at android.view.View$PerformClick.run(View.java:25912)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6923)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:870)
+I/Process: Sending signal. PID: 23495 SIG: 9
