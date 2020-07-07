@@ -58,3 +58,6 @@ E/AndroidRuntime: FATAL EXCEPTION: main
         at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:870)
 I/Process: Sending signal. PID: 23495 SIG: 9
+
+
+PERSONAL NOTE:  This error occurs on line 167 of MainActivity.java, "Interpreter tfliteGPU = new Interpreter(loadedFile, options);"
