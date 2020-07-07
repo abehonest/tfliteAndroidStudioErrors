@@ -1,0 +1,1538 @@
+07/06 20:49:30: Launching 'app' on motorola moto g(7) power.
+$ adb shell am start -n "com.example.mlptest/com.example.mlptest.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 30317 on device 'motorola-moto_g_7__power-ZY326J6LDW'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/example.mlptes: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+    Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+W/example.mlptes: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+W/example.mlptes: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+W/example.mlptes: Accessing hidden method Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic; (light greylist, linking)
+D/David: Battery Info: android.app.ApplicationErrorReport$BatteryInfo@d2f66e7
+D/OpenGLRenderer: Skia GL Pipeline
+I/Adreno: QUALCOMM build                   : 94a5458, I21281c58c8
+    Build Date                       : 12/18/18
+    OpenGL ES Shader Compiler Version: EV031.25.03.02
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.6.2.R1.09.00.00.463.046
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+    Build Config                     : S L 6.0.7 AArch64
+I/Adreno: PFP: 0x005ff112, ME: 0x005ff066
+I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+    android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 2
+I/tflite: Created TensorFlow Lite delegate for GPU.
+D/David: MODEL: 1 TEST CSV: 1
+I/tflite: Initialized TensorFlow Lite runtime.
+W/System: A resource failed to call close. 
+E/libc: Access denied finding property "ro.hardware.chipname"
+W/example.mlptest: type=1400 audit(0.0:142438): avc: denied { read } for uid=10315 name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=15132 scontext=u:r:untrusted_app:s0:c59,c257,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+D/David: MODEL: 1 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 3
+D/David: MODEL: 1 TEST CSV: 4
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 5
+D/David: MODEL: 1 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 9
+D/David: MODEL: 1 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 16
+D/David: MODEL: 1 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 27
+D/David: MODEL: 1 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 1 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 2
+D/David: MODEL: 2 TEST CSV: 3
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 5
+D/David: MODEL: 2 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 16
+D/David: MODEL: 2 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 22
+D/David: MODEL: 2 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 27
+D/David: MODEL: 2 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 2 TEST CSV: 29
+D/David: MODEL: 2 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 2
+D/David: MODEL: 3 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 4
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 5
+D/David: MODEL: 3 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 7
+D/David: MODEL: 3 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 9
+D/David: MODEL: 3 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 12
+D/David: MODEL: 3 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 16
+D/David: MODEL: 3 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 22
+D/David: MODEL: 3 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 27
+D/David: MODEL: 3 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 3 TEST CSV: 29
+D/David: MODEL: 3 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 2
+D/David: MODEL: 4 TEST CSV: 3
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 5
+D/David: MODEL: 4 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 9
+D/David: MODEL: 4 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 12
+D/David: MODEL: 4 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 22
+D/David: MODEL: 4 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 27
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 28
+D/David: MODEL: 4 TEST CSV: 29
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 4 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 3
+D/David: MODEL: 5 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 12
+D/David: MODEL: 5 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 16
+D/David: MODEL: 5 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 19
+D/David: MODEL: 5 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 5 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 3
+D/David: MODEL: 6 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 7
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 8
+D/David: MODEL: 6 TEST CSV: 9
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 10
+D/David: MODEL: 6 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 12
+D/David: MODEL: 6 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 16
+D/David: MODEL: 6 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 19
+D/David: MODEL: 6 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 27
+D/David: MODEL: 6 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 6 TEST CSV: 29
+D/David: MODEL: 6 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 2
+D/David: MODEL: 7 TEST CSV: 3
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 4
+D/David: MODEL: 7 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 7
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 8
+D/David: MODEL: 7 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 12
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 13
+D/David: MODEL: 7 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 16
+D/David: MODEL: 7 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 22
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 27
+D/David: MODEL: 7 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 7 TEST CSV: 29
+D/David: MODEL: 7 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 3
+D/David: MODEL: 8 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 8
+D/David: MODEL: 8 TEST CSV: 9
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 10
+D/David: MODEL: 8 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 12
+D/David: MODEL: 8 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 21
+D/David: MODEL: 8 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 24
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 26
+D/David: MODEL: 8 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 8 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 2
+D/David: MODEL: 9 TEST CSV: 3
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 5
+D/David: MODEL: 9 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 9
+D/David: MODEL: 9 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 13
+D/David: MODEL: 9 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 16
+D/David: MODEL: 9 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 27
+D/David: MODEL: 9 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 9 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 2
+D/David: MODEL: 10 TEST CSV: 3
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 5
+D/David: MODEL: 10 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 7
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 8
+D/David: MODEL: 10 TEST CSV: 9
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 10
+D/David: MODEL: 10 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 12
+D/David: MODEL: 10 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 16
+D/David: MODEL: 10 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 27
+D/David: MODEL: 10 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 10 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 3
+D/David: MODEL: 11 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 9
+D/David: MODEL: 11 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 12
+D/David: MODEL: 11 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 16
+D/David: MODEL: 11 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 22
+D/David: MODEL: 11 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 27
+D/David: MODEL: 11 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 11 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 3
+D/David: MODEL: 12 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 7
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 8
+D/David: MODEL: 12 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 12
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 13
+D/David: MODEL: 12 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 16
+D/David: MODEL: 12 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 21
+D/David: MODEL: 12 TEST CSV: 22
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 23
+D/David: MODEL: 12 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 25
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 27
+D/David: MODEL: 12 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 12 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 2
+D/David: MODEL: 13 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 4
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 5
+D/David: MODEL: 13 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 9
+D/David: MODEL: 13 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 12
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 13
+D/David: MODEL: 13 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 16
+D/David: MODEL: 13 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 19
+D/David: MODEL: 13 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 22
+D/David: MODEL: 13 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 27
+D/David: MODEL: 13 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 13 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 2
+D/David: MODEL: 14 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 4
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 5
+D/David: MODEL: 14 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 12
+D/David: MODEL: 14 TEST CSV: 13
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 14
+D/David: MODEL: 14 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 16
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 17
+D/David: MODEL: 14 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 20
+D/David: MODEL: 14 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 22
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 23
+D/David: MODEL: 14 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 27
+D/David: MODEL: 14 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 29
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 14 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 2
+D/David: MODEL: 15 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 7
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 9
+D/David: MODEL: 15 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 12
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 13
+D/David: MODEL: 15 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 16
+D/David: MODEL: 15 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 22
+D/David: MODEL: 15 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 26
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 27
+D/David: MODEL: 15 TEST CSV: 28
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 15 TEST CSV: 29
+D/David: MODEL: 15 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 3
+D/David: MODEL: 16 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 8
+D/David: MODEL: 16 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 12
+D/David: MODEL: 16 TEST CSV: 13
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 14
+D/David: MODEL: 16 TEST CSV: 15
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 16
+D/David: MODEL: 16 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 18
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 21
+D/David: MODEL: 16 TEST CSV: 22
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 23
+D/David: MODEL: 16 TEST CSV: 24
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 26
+D/David: MODEL: 16 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 16 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 1
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 2
+D/David: MODEL: 17 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 4
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 5
+D/David: MODEL: 17 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 7
+D/David: MODEL: 17 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 10
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 16
+I/example.mlptes: Waiting for a blocking GC ProfileSaver
+I/example.mlptes: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 19.859ms
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 20
+D/David: MODEL: 17 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 17 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 18 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 9
+D/David: MODEL: 19 TEST CSV: 10
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 16
+D/David: MODEL: 19 TEST CSV: 17
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 19
+D/David: MODEL: 19 TEST CSV: 20
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 22
+D/David: MODEL: 19 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 19 TEST CSV: 29
+D/David: MODEL: 19 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 9
+D/David: MODEL: 20 TEST CSV: 10
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 20
+D/David: MODEL: 20 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 22
+D/David: MODEL: 20 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 20 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 4
+D/David: MODEL: 21 TEST CSV: 5
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 7
+D/David: MODEL: 21 TEST CSV: 8
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 9
+D/David: MODEL: 21 TEST CSV: 10
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 16
+D/David: MODEL: 21 TEST CSV: 17
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 21
+D/David: MODEL: 21 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 21 TEST CSV: 29
+D/David: MODEL: 21 TEST CSV: 30
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 5
+D/David: MODEL: 22 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 22
+D/David: MODEL: 22 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 22 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 4
+D/David: MODEL: 23 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 6
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 10
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 12
+D/David: MODEL: 23 TEST CSV: 13
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 22
+D/David: MODEL: 23 TEST CSV: 23
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 28
+D/David: MODEL: 23 TEST CSV: 29
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 23 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 4
+D/David: MODEL: 24 TEST CSV: 5
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 9
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 10
+D/David: MODEL: 24 TEST CSV: 11
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 20
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 21
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 28
+D/David: MODEL: 24 TEST CSV: 29
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 24 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 1
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 2
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 3
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 4
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 5
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 6
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 7
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 8
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 9
+D/David: MODEL: 25 TEST CSV: 10
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 11
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 12
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 13
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 14
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 15
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 16
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 17
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 18
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 19
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 20
+D/David: MODEL: 25 TEST CSV: 21
+W/System: A resource failed to call close. 
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 22
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 23
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 24
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 25
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 26
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 27
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 28
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 29
+W/System: A resource failed to call close. 
+D/David: MODEL: 25 TEST CSV: 30
+W/System: A resource failed to call close. 
+D/David: Done with accuracy matrix making!
+D/David: /data/user/0/com.example.mlptest/files/my-file-name.csv
+I/Choreographer: Skipped 14489 frames!  The application may be doing too much work on its main thread.
+I/OpenGLRenderer: Davey! duration=241500ms; Flags=0, IntendedVsync=40404941194857, Vsync=40646424518531, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=40646433533933, AnimationStart=40646433719662, PerformTraversalsStart=40646434557839, DrawStart=40646435110808, SyncQueued=40646437942423, SyncStart=40646438165444, IssueDrawCommandsStart=40646438320183, SwapBuffers=40646440473934, FrameCompleted=40646441956955, DequeueBufferDuration=333000, QueueBufferDuration=601000, 
+D/OpenGLRenderer: endAllActiveAnimators on 0x7725364f00 (RippleDrawable) with handle 0x77253fb060
